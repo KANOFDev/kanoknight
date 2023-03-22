@@ -1,30 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <link rel="shortcut icon" href="styles/assets/kanoico.png" type="image/x-icon">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <link rel="shortcut icon" href="styles/assets/kanoico.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KANOKNIGHT</title>
 </head>
 <body>
+    <!-- HEADER -->
+    <header>
+        
+        <a href="#" class="logo"><img src="styles/assets/kanoico.png" id="small"></a>
+        <ul>
+            <li><a href="https://twitter.com/KanofArtist" target="_blank">Twitter!</a></li>
+            <li><a href="https://medibang.com/author/24630472/" target="_blank">ArtStreet!</a></li>
+            <li><a href="https://www.youtube.com/@kanoknight" target="_blank">YouTube!</a></li>
+            <li><a href="https://gamejolt.com/@KanofKnight" target="_blank">Gamejolt!</a></li>
+            <li><a href="portafolio.html">Portfolio!</a></li>
+        </ul>
+    </header>
+    <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+    <!-- HERO -->
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1>Kanoknight</h1>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <button style="--clr:#ff004e"><a href="contacto.html"><span>Contact me!</span><i></i></a></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+      </div>
 
-    <table>
-        <tr>
-            <td>
-                <img src="styles/assets/one.png" alt="">
-            </td>
-            <td>
-                <img src="styles/assets/two.gif" alt="">
-            </td>
-            <td>
-                <img src="styles/assets/three.png" alt="">
-            </td>
-            <td>
-                <img src="styles/assets/four.png" alt="">
-            </td>
-        </tr>
-    </table>
-    
 </body>
 </html>
