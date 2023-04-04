@@ -43,7 +43,14 @@ body {
 .container .card:hover {
   flex-grow: 10;
 }
-
+#small{
+  width: auto;
+  height: 70px;
+}
+header{
+  position:fixed;
+  top: 5px;
+}
 .container .card:hover img {
   filter: grayscale(0);
 }
