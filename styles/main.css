@@ -84,7 +84,7 @@ header.sticky ul li a{
 }
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(90deg, rgb(131, 131, 131) 0%, rgba(255, 255, 255, 0) 100%), url("assets/Thorucommis.png");
+    background-image: linear-gradient(90deg, rgb(131, 131, 131) 0%, rgba(255, 255, 255, 0) 100%), url("assets/aaaaaaaaa.png");
   
     /* Set a specific height */
     height: 75%;
