@@ -28,7 +28,7 @@ header{
     justify-content: space-between;
     align-items:auto;
     transition: 0.6s;
-    padding: 10px 2%;
+    padding: 1px 10%;
     z-index: 100000;
 }
 header.sticky {
@@ -84,7 +84,7 @@ header.sticky ul li a{
 }
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(90deg, rgb(131, 131, 131) 0%, rgba(255, 255, 255, 0) 100%), url("assets/aaaaaaaaa.png");
+    background-image: url("assets/fondo.png"), linear-gradient(90deg, rgb(109, 0, 24) 0%, rgba(248, 0, 62, 0.021) 100%);
   
     /* Set a specific height */
     height: 75%;
@@ -101,10 +101,10 @@ header.sticky ul li a{
     font-size: 50px;
     text-align: right;
     position: absolute;
-    top: 25%;
-    left: 30%;
+    top: 30%;
+    left: 37%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(43, 5, 16);
 }
 button {
   left: 17%;
@@ -143,7 +143,7 @@ h1{
   transition: font-size, 1s;
 }
 h1:hover{
-  color: rgb(245, 10, 29);
+  color: rgb(245, 10, 61);
   font-size: 137px;
 }
 button:hover {
