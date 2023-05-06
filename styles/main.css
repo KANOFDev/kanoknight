@@ -178,7 +178,6 @@ button i::before {
   width: 10px;
   height: 2px;
   left: 80%;
-  top: -2px;
   border: 2px solid var(--clr);
   background: #272822;
   transition: 0.2s;

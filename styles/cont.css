@@ -6,13 +6,20 @@
 	box-sizing: border-box;
 	font-family: "Roboto", sans-serif;
 }
+#tablawid{
+	background: rgb(0,45,115);
+	background: linear-gradient(0deg, rgb(1, 78, 151) 0%, rgba(0, 255, 255, 0.404) 87%);
+	top: 30px;
+	right: 30px;
+	border-radius: 3px;
+}
 body {
 	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background: linear-gradient(to bottom, #5d326c, #350048); /*fiolet*/
+	background: linear-gradient(to bottom, #dddddd, #363636); /*fiolet*/
 }
 .container {
 	width: 1000px;
