@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="shortcut icon" href="styles/assets/kanoico.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KANOKNIGHT</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        
+        <a href="index.html" class="logo"><img src="styles/assets/kanoico.png" id="small"></a>
+        <ul>
+            <li><a href="https://twitter.com/KanofArtist" target="_blank">Twitter!</a></li>
+            <li><a href="https://medibang.com/author/24630472/" target="_blank">ArtStreet!</a></li>
+            <li><a href="https://www.youtube.com/@kanoknight" target="_blank">YouTube!</a></li>
+            <li><a href="https://gamejolt.com/@KanofKnight" target="_blank">Gamejolt!</a></li>
+        </ul>
+    </header>
+    <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+    <!-- HERO -->
+    <div class="hero-image">
+        <div class="hero-text">
+         <a href="contacto.html"><h1>Kanoknight</h1></a> 
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <button style="--clr:#ff004e"><a href="portafolio.html"><span>Mi Portafolio!</span><i></i></a></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+      </div>
+
+</body>
+</html>
