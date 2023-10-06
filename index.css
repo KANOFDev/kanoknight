@@ -10,14 +10,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #444;
-    color: #444;
+    border: 1px solid #ffffff;
+    color: #ffffff;
     width: 55%;
-    height: 150px;
+    height: 130px;
 }
 .netbox .icon {
     padding: 0.6rem 0.6rem;
-    color: #444;
+    color: #ffffff;
     transition: color 140ms ease;
     margin: 0 0.4rem;
 }
